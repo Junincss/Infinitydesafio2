@@ -1,0 +1,125 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background-color: #3c3c3c;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+}
+
+#Aula2{
+  height: 80vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 0.1rem;
+  border-radius: 2rem;
+  background-color: #575353;
+}
+
+#calcs{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  border-radius: 6px;
+  border: solid 0.5px black;
+  padding: 1rem;
+  background-color: #353030;
+  }
+.inputs{
+  padding: 0.8em;
+  background-color: #353030;
+  border: none;
+  border-radius: 1rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+
+.button{
+  margin: 2rem;
+  width: 10rem;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 3px 5px 24px 1px #000000;
+  background-color: #1273ac;
+  color: #fff
+  ;
+}
+.button{
+  margin: 2rem;
+  width: 10rem;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 3px 5px 24px 1px #000000;
+  background-color: #1273ac;
+  color: #fff
+  ;
+}
+.button:hover{
+  background-color: #060f97;
+  color: #fff
+  ;
+}
+#buttonr{
+  margin: 2rem;
+  width: 10rem;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #cc0e0e;
+   box-shadow: 3px 5px 24px 1px #000000;
+  color: #fff
+  ;
+}
+
+#buttonr:hover{
+  background-color: #610303;
+  color: #fff
+  ;
+}
+.formcalculo{
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  margin-top: 0.5rem;
+  border: solid 1px black;
+  border-radius: 0.2rem;
+  width: 80%;
+  padding: 2rem;
+  background-color: #5f5757;
+
+}
+
+
+.resultado{
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  margin-top: 0.5rem;
+  border: solid 1px black;
+  border-radius: 0.2rem;
+  width: 80%;
+  padding: 2rem;
+  background-color: #5f5757;
+
+}
